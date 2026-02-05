@@ -1,0 +1,22 @@
+.list-category{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(58, 105, 145);
+    margin-bottom: 5%;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgb(179, 212, 243);
+}
+
+.list-items li{
+    font-size: 1.5em;
+    list-style: none;
+    text-align: center;
+    color: rgb(168, 106, 106);
+    margin: 0%;
+}
+.list-items li:hover{
+    color: rgb(70, 44, 44);
+    cursor: pointer;
+}

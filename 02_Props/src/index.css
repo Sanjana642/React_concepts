@@ -1,0 +1,11 @@
+.student{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #4A90E2;
+  padding: 10px;
+  border: 2px solid #34343505;
+}
+
+.student p{
+  margin:0;
+}
