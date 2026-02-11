@@ -49,11 +49,11 @@ function MyComponent() {
             
             <p>5. Shipping: {shipping}</p>
             <label>
-                <input type="radio" value={shipping} checked = {shipping === "Pick Up"} onChange={handleShippingChange}  />
+                <input type="radio" value="Pick Up" checked = {shipping === "Pick Up"} onChange={handleShippingChange}  />
                 Pick Up
             </label><br />
             <label>
-                <input type="radio" value={shipping}  checked = {shipping === "Delivery"}
+                <input type="radio" value="Delivery" id="delivery" checked = {shipping === "Delivery"}
                 onChange={handleShippingChange}  />
                 Delivery
             </label>
